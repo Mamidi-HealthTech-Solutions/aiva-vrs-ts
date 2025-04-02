@@ -16,6 +16,10 @@ dist/
 build/
 lib/
 
+# Package files
+package-lock.json
+*.tgz
+
 # Coverage directory used by tools like istanbul
 coverage/
 
@@ -53,9 +57,6 @@ Thumbs.db
 .env.development.local
 .env.test.local
 .env.production.local
-
-# Package files
-*.tgz
 
 # Yarn
 .yarn-integrity
